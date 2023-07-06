@@ -1,0 +1,119 @@
+body {
+    padding-top: 200px;
+}
+.search-form { 
+    padding: 10px;
+    border: 3px thin ;
+    border-radius: 4px;
+}
+#search-container {
+    width: 500px;
+    height: 40px;
+}
+.search-box {
+    position: relative;
+    display: inline-block;
+}
+.search-box {
+    border-radius: 20px;
+}
+.search-icon {
+    position: absolute;
+    top: 50%;
+    right: 470px;
+    transform: translateY(-50%);
+    color: #999;
+}
+.microphone-icon {
+    position: absolute;
+    top: 50%;
+    right: 60px;
+    transform: translateY(-50%);
+    color: #999;
+}
+.camera-icon {
+    position: absolute;
+    top: 50%;
+    right: 25px;
+    transform: translateY(-50%);
+    color: #999;
+}
+.button {
+    margin: 2% 3% 2% 20%;
+    text-align: center;
+}
+.top-container {
+    text-align: center;
+}
+.middle-container {
+    padding: 0px 3px;
+    text-align: center;
+    font-family: Arial, Helvetica, sans-serif;
+    line-height: 28px;
+    font-size: small;
+    display: inline-block;
+    color: #4d5156;
+    white-space: nowrap;
+    justify-content: space-between;
+
+}
+.bottom-container {
+    padding-bottom: 0;
+}
+
+.first {
+    
+    border-bottom: 1px solid #dadce0;
+    font-size: 15px;
+    color: #70757a;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    padding: 0 20px;
+    padding-top: 150px;
+}    
+.one {
+    color: #70757a;
+    display: inline-block;
+    padding: 15px;
+    text-align: left;
+    white-space: nowrap;
+    margin: 0;
+    padding-right: 100px;
+
+}
+.two {
+    color: #70757a;
+    display: inline-block;
+    text-align: center;
+    white-space: nowrap;
+    margin: 0;
+    padding-right: 100px;
+
+}
+.three {
+    color: #70757a;
+    display: inline-block;
+    white-space: nowrap;
+    text-align: right;
+    color: #70757a;
+    margin: 0;
+
+}
+a {
+    display: inline;
+    margin: 10px 20px;
+    text-decoration: none;
+
+}
+.link-footer {
+    color: #70757a;
+    display: inline;
+ 
+}
+.download button {
+    margin: 5% 3% 5% 0;
+}
+img {
+    width: 250px;
+}
